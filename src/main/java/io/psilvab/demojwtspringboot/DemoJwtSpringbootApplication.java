@@ -19,6 +19,7 @@ public class DemoJwtSpringbootApplication {
 	@Autowired
 	private UserRepository userRepository;
 	
+	
 	@PostConstruct
 	public void initUsers() {
 		List<User> users = Stream.of(
